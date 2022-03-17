@@ -19,7 +19,13 @@
       <artifactId>functions-framework-api</artifactId>
       <version>1.0.1</version>
     </dependency>
-  </dependencies>
+<!-- https://mvnrepository.com/artifact/com.googlecode.objectify/objectify -->
+<dependency>
+    <groupId>com.googlecode.objectify</groupId>
+    <artifactId>objectify</artifactId>
+    <version>6.0.7</version>
+</dependency>
+   </dependencies>
 
   <!-- Required for Java 11 functions in the inline editor -->
   <build>
